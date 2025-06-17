@@ -1,9 +1,7 @@
 # Project: Similarity Calculation for [Specify what it's for here]
 
-A brief description of the project, e.g., "This project implements various algorithms to calculate semantic and lexical similarity between texts/models, divided into Many-to-Many (M2M) and Many-to-Text (M2T) approaches."
+This project implements various algorithms to calculate semantic and lexical similarity between texts/models, divided into Model to Model (M2M) and Model to Text (M2T) approaches.
 
-## Table of Contents (Optional)
-* [Usage](#usage)
 
 ## Installation
 
