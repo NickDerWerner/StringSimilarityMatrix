@@ -4,8 +4,6 @@ A brief description of the project, e.g., "This project implements various algor
 
 ## Table of Contents (Optional)
 * [Usage](#usage)
-* [Project Structure](#project-structure)
-* [Technologies Used](#technologies-used)
 
 ## Installation
 
