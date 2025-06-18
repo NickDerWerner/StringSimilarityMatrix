@@ -28,7 +28,3 @@ The M2T folder consists of files to analyse Model to Text similarity, given an i
 The different files use different strategies to determine the text similarity between the Tasks of the BPMN and Sentences of the Description.
 
 The files in M2M do the same for a Model to Model comparison, where one Model was created by hand and the other one with a LLM powerd BPMN converter
-
-**Example for M2M Semantic Similarity:**
-```bash
-python M2M/SematnicSimilarity.py --parameter1 value1 --parameter2 value2

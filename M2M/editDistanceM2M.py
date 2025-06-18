@@ -47,10 +47,10 @@ def edit_distance(s1, s2):
 for s in range(num_sentences):
     for t in range(num_tasks):
        
-     x = edit_distance(sentences[s], tasks[t]) 
+     #x = edit_distance(sentences[s], tasks[t]) 
      #x = edit_distance(sentences[s], tasks[t]) / max(len(sentences[s]), len(tasks[t]))  
      #x = edit_distance(sentences[s], tasks[t]) / (len(sentences[s]) + len(tasks[t]))  # Normalize by the sum of lengths
-     #x = edit_distance(sentences[s], tasks[t]) - abs(len(tasks[t])- len(sentences[s]))   
+     x = edit_distance(sentences[s], tasks[t]) - abs(len(tasks[t])- len(sentences[s]))   
      matrix[s][t] = x
         
 
